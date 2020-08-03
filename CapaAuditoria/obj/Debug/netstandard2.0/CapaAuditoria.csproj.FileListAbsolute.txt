@@ -1,0 +1,8 @@
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\bin\Debug\netstandard2.0\CapaAuditoria.deps.json
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\bin\Debug\netstandard2.0\CapaAuditoria.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\bin\Debug\netstandard2.0\CapaAuditoria.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\obj\Debug\netstandard2.0\CapaAuditoria.csprojAssemblyReference.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\obj\Debug\netstandard2.0\CapaAuditoria.AssemblyInfoInputs.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\obj\Debug\netstandard2.0\CapaAuditoria.AssemblyInfo.cs
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\obj\Debug\netstandard2.0\CapaAuditoria.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaAuditoria\obj\Debug\netstandard2.0\CapaAuditoria.pdb

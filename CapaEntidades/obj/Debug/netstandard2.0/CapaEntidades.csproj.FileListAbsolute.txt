@@ -1,0 +1,7 @@
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\bin\Debug\netstandard2.0\CapaEntidades.deps.json
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\bin\Debug\netstandard2.0\CapaEntidades.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\bin\Debug\netstandard2.0\CapaEntidades.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.AssemblyInfoInputs.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.AssemblyInfo.cs
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\WS_SeguroAsistencias_LBC\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.pdb
