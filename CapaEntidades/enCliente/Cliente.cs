@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CapaEntidades
+namespace CapaEntidades.enCliente
 {
     public class Cliente
     {
