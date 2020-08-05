@@ -1,0 +1,9 @@
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\CapaDatos.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\CapaEntidad.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\IBM.Data.Informix.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\CapaEntidad.pdb
+D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -99,6 +99,8 @@ D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\roslyn\vbc.rsp
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\roslyn\VBCSCompiler.exe
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\roslyn\VBCSCompiler.exe.config
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Antlr3.Runtime.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaEntidad.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaNegocios.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.Web.Infrastructure.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Newtonsoft.Json.dll
@@ -113,6 +115,10 @@ D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.Dep
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.Razor.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\WebGrease.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaDatos.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\IBM.Data.Informix.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaEntidad.pdb
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaNegocios.pdb
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Newtonsoft.Json.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Net.Http.Formatting.xml
@@ -126,6 +132,7 @@ D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.Deployment.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.Razor.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Antlr3.Runtime.pdb
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaDatos.pdb
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\es\System.Net.Http.Formatting.resources.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\es\System.Web.Helpers.resources.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\es\System.Web.Http.resources.dll
