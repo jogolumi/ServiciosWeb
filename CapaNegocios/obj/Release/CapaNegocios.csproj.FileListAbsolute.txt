@@ -1,0 +1,11 @@
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\CapaNegocios.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\CapaNegocios.pdb
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\CapaDatos.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\CapaEntidad.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\IBM.Data.Informix.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\CapaDatos.pdb
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Release\CapaEntidad.pdb
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.csprojAssemblyReference.cache
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.csproj.CopyComplete
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.pdb

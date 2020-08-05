@@ -32,7 +32,7 @@ namespace CapaNegocios
                     enCliente = new OutputClienteEn
                     {
                         CodigoRetorno = "102",
-                        DescripcionRetorno = "Error en retorno"
+                        DescripcionRetorno = "Error en retorno valor null"
                     };
                     return enCliente;
                 }
@@ -92,7 +92,7 @@ namespace CapaNegocios
                 enCliente = new OutputClienteEn
                 {
                     CodigoRetorno = "102",
-                    DescripcionRetorno = "Error en retorno"
+                    DescripcionRetorno = "Error en retorno excepcion " + ex.Message.ToString()
                 };
                 return enCliente;
             }
@@ -103,7 +103,7 @@ namespace CapaNegocios
             if(dt is null)
             {
                 _CodigoRetorno = "102";
-                _DescripcionRetorno = "Error en retorno";
+                _DescripcionRetorno = "Error en retorno validación tabla null";
                 return false;
             }
             //DATA TABLE VACIO
