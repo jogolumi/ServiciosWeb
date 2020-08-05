@@ -34,7 +34,7 @@ namespace CapaDatos
                                 ", SUBSTRING(c.gbagendid from 1 for length(c.gbagendid) - 2) numero_documento_identificacion " +
                                 ", c.gbagecomp complemento, da.gbdacnom1 primer_nombre_cliente, da.gbdacnom2 segundo_nombre_cliente, da.gbdacape1 apellido_paterno_cliente " +
                                 ", da.gbdacape2 apellido_materno_cliente, TO_CHAR(c.gbagefnac, '%Y%m%d') fecha_nacimiento " +
-                                ", c.gbagesexo genero, con.gbconcorr nacionalidad --c.gbagenaci nacionalidad " +
+                                ", c.gbagesexo genero, con.gbconcorr nacionalidad " +
                                 ", c.gbageeciv estado_civil " +
                                 ", (select con.gbdacnom1 from gbdac con where con.gbdaccage = da.gbdaccony) nombre_conyugue " +
                                 ", (select con.gbdacape1 from gbdac con where con.gbdaccage = da.gbdaccony) apellido_conyugue " +
