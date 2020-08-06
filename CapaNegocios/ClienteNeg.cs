@@ -69,7 +69,7 @@ namespace CapaNegocios
                             NroMatriculaRegistroComercio = item["nro_matricula_registro_comercio"].ToString().Trim(),
                             LugarPaisConstitucion = item["lugar_pais_constitucion"].ToString().Trim(),
                             NombreRepresentanteLegal = item["nombre_representante_legal"].ToString().Trim(),
-                            NombreResponsableSeguros = item["nombr_responsable_seguros"].ToString().Trim(),
+                            NombreResponsableSeguros = item["nombre_responsable_seguros"].ToString().Trim(),
                             CodigoRetorno = _CodigoRetorno,
                             DescripcionRetorno = _DescripcionRetorno
                         };

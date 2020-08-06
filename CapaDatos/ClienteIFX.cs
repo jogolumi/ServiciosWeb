@@ -41,7 +41,7 @@ namespace CapaDatos
                                 ", da.gbdacmail correo_electronico, c.gbagetlfd telefono, da.gbdaccelu celular " +
                                 ", dir.gbdirpais pais_domicilio " +
                                 ", dir.gbdirdpto departamento_domicilio, dir.gbdircprv provincia_domicilio, dir.gbdirzona zona_domicilio, dir.gbdirciud ciudad_domicilio " +
-                                ", CONCAT(c.gbageddo1, c.gbageddo2) direccion_domicilio1 " +
+                                ", CONCAT(c.gbageddo1, c.gbageddo2) direccion_domicilio " +
                                 ", '' razon_social_denominacion, '' nro_matricula_registro_comercio, '' lugar_pais_constitucion, '' nombre_representante_legal, '' nombre_responsable_seguros " +
                                 "from gbage c " +
                                 "inner join gbdac da on da.gbdaccage = c.gbagecage " +
