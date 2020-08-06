@@ -78,23 +78,29 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="bin/Antlr3.Runtime.pdb">
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>08/05/2020 20:52:18</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>08/05/2020 20:52:18</publishTime>
+    </File>
     <File Include="bin/CapaDatos.dll">
-      <publishTime>08/05/2020 19:01:42</publishTime>
+      <publishTime>08/05/2020 20:51:59</publishTime>
     </File>
     <File Include="bin/CapaDatos.pdb">
-      <publishTime>08/05/2020 19:01:42</publishTime>
+      <publishTime>08/05/2020 20:51:59</publishTime>
     </File>
     <File Include="bin/CapaEntidad.dll">
-      <publishTime>08/05/2020 19:01:40</publishTime>
+      <publishTime>08/05/2020 20:51:58</publishTime>
     </File>
     <File Include="bin/CapaEntidad.pdb">
-      <publishTime>08/05/2020 19:01:40</publishTime>
+      <publishTime>08/05/2020 20:51:58</publishTime>
     </File>
     <File Include="bin/CapaNegocios.dll">
-      <publishTime>08/05/2020 19:01:42</publishTime>
+      <publishTime>08/05/2020 20:51:59</publishTime>
     </File>
     <File Include="bin/CapaNegocios.pdb">
-      <publishTime>08/05/2020 19:01:42</publishTime>
+      <publishTime>08/05/2020 20:51:59</publishTime>
     </File>
     <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
       <publishTime>11/28/2018 13:00:46</publishTime>
@@ -127,7 +133,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>11/28/2018 13:04:36</publishTime>
     </File>
     <File Include="bin/IBM.Data.Informix.dll">
-      <publishTime>04/01/2019 11:03:38</publishTime>
+      <publishTime>10/29/2015 11:07:03</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>07/08/2020 21:52:58</publishTime>
@@ -250,10 +256,10 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/23/2014 13:57:34</publishTime>
     </File>
     <File Include="bin/WS_SeguroAsistencias_LBC.dll">
-      <publishTime>08/05/2020 19:01:43</publishTime>
+      <publishTime>08/05/2020 20:52:00</publishTime>
     </File>
     <File Include="bin/WS_SeguroAsistencias_LBC.pdb">
-      <publishTime>08/05/2020 19:01:43</publishTime>
+      <publishTime>08/05/2020 20:52:00</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>07/31/2020 15:14:24</publishTime>
@@ -303,6 +309,9 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="Global.asax">
       <publishTime>07/31/2020 15:14:00</publishTime>
     </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/05/2020 20:52:09</publishTime>
+    </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/31/2020 15:14:24</publishTime>
     </File>
@@ -346,7 +355,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>07/31/2020 15:14:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/05/2020 19:01:46</publishTime>
+      <publishTime>08/05/2020 20:52:07</publishTime>
     </File>
   </ItemGroup>
 </Project>

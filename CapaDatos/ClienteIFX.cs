@@ -25,7 +25,7 @@ namespace CapaDatos
             }
         }
         public string error { get; set; }
-        public IDataReader ObtenerCliente(InputClienteEn oCliente)
+        public DataTable ObtenerCliente(InputClienteEn oCliente)
         {
             string consulta = "select c.gbagecage codigo_cliente " +
                                 ", c.gbagetper tipo_persona " +
@@ -51,12 +51,12 @@ namespace CapaDatos
             IfxConnection conn = new IfxConnection(ConexionInformix());
             try
             {
+                DataTable Consulta = new DataTable();
                 conn.Open();
-                IfxCommand cmm = new IfxCommand(consulta, conn);
-                IDataReader RetornoCliente = cmm.ExecuteReader();
-                cmm.Dispose();
+                IfxDataAdapter resp1 = new IfxDataAdapter(consulta, conn);
+                resp1.Fill(Consulta);
 
-                return RetornoCliente;
+                return Consulta;
             }
             catch (IfxException ex)
             {

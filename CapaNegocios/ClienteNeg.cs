@@ -21,21 +21,18 @@ namespace CapaNegocios
             {
                 ClienteIFX daCliente = new ClienteIFX();
                 DataTable dt = new DataTable();
-                using (IDataReader dr = daCliente.ObtenerCliente(oCliente))
-                {
-                    dt.Load(dr);
-                    dr.Close();
-                }
-                //OBJETO NULO
-                if(dt == null)
-                {
-                    enCliente = new OutputClienteEn
-                    {
-                        CodigoRetorno = "102",
-                        DescripcionRetorno = "Error en retorno valor null"
-                    };
-                    return enCliente;
-                }
+
+                dt = daCliente.ObtenerCliente(oCliente);
+                ////OBJETO NULO
+                //if (dt is null)
+                //{
+                //    enCliente = new OutputClienteEn
+                //    {
+                //        CodigoRetorno = "102",
+                //        DescripcionRetorno = "Error en retorno valor null"
+                //    };
+                //    return enCliente;
+                //}
                 //VALIDAR CLIENTE
                 if (ValidarDatosCliente(dt))
                 {
@@ -46,7 +43,8 @@ namespace CapaNegocios
                             CodigoCliente = item["codigo_cliente"].ToString().Trim(),
                             TipoPersona = item["tipo_persona"].ToString().Trim(),
                             TipoDocumento = item["tipo_documento"].ToString().Trim(),
-                            LugarExpedicion = item["numero_documento_expedicion"].ToString().Trim(),
+                            LugarExpedicion = item["lugar_expedicion"].ToString().Trim(),
+                            NumeroDocumentoIdentificacion = item["numero_documento_identificacion"].ToString().Trim(),
                             Complemento = item["complemento"].ToString().Trim(),
                             PrimerNombreCliente = item["primer_nombre_cliente"].ToString().Trim(),
                             SegundoNombreCliente = item["segundo_nombre_cliente"].ToString().Trim(),
