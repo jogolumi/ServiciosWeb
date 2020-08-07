@@ -24,10 +24,10 @@ namespace WS_SeguroAsistencias_LBC.Controllers
             {
                 return BadRequest();
             }
-            //if (!ModelState.IsValid)
-            //{
-            //    return BadRequest(ModelState);
-            //}
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             try
             {
                 OutputClienteEn oCliente = new OutputClienteEn();

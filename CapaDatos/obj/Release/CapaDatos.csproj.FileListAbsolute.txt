@@ -2,6 +2,8 @@ D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\CapaDatos.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\CapaDatos.pdb
 D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\CapaEntidad.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\IBM.Data.Informix.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Release\CapaEntidad.pdb
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Release\CapaDatos.csprojAssemblyReference.cache
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete

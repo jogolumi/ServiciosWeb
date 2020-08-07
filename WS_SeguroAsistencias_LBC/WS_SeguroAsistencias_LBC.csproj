@@ -257,6 +257,10 @@
       <Project>{D835430D-5DD3-496E-A838-9A9A04771ADB}</Project>
       <Name>CapaNegocios</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProyectoAuditoria\ProyectoAuditoria.csproj">
+      <Project>{322694EA-489C-4C59-B177-8A6942DD9A3E}</Project>
+      <Name>ProyectoAuditoria</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

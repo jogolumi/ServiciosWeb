@@ -14,13 +14,13 @@ namespace Auditoria.CapaDatos
     {
         private DatabaseProviderFactory construir = new DatabaseProviderFactory();
         private Database db = null;
-        public void New()
+        public daAuditoriaTablas()
         {
             db = construir.Create("ecoamparaEntities");
         }
         public bool FN_DaRegistrarAuditoriaTablas(enAuditoriaTablas oEnAuditoriaTablas)
         {
-            DbCommand comand = db.GetSqlStringCommand("RegistrarAuditoriaTablas");
+            DbCommand comand = db.GetStoredProcCommand("RegistrarAuditoriaTablas");
             try
             {
                 db.AddInParameter(comand, "@iCodigoAuditoria", DbType.Int64, oEnAuditoriaTablas.CodigoAuditoria);

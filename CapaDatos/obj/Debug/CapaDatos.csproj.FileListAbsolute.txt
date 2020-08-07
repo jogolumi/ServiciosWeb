@@ -7,3 +7,5 @@ D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReferenc
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll

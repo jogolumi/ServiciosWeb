@@ -14,16 +14,16 @@ namespace Auditoria.CapaDatos
     {
         private DatabaseProviderFactory construir = new DatabaseProviderFactory();
         private Database db = null;
-        public void New()
+        public daAuditoriaResumen()
         {
             db = construir.Create("ecoamparaEntities");
         }
         public Int64 FN_DaRegistrarAuditoriaResumen(enAuditoriaResumen oEnAuditoriaResumen)
         {
-            DbCommand comand = db.GetSqlStringCommand("RegistrarAuditoriaResumen");
+            DbCommand comand = db.GetStoredProcCommand("RegistrarAuditoriaResumen");
             try
             {
-                db.AddOutParameter(comand, "@iCodigoProceso", DbType.Int64, 0);
+                db.AddOutParameter(comand, "@iCodigoAuditoria", DbType.Int64, 0);
 
                 db.AddInParameter(comand, "@sCodigoUsuario", DbType.String, oEnAuditoriaResumen.CodigoUsuario);
                 db.AddInParameter(comand, "@sCodigoOpcion", DbType.String, oEnAuditoriaResumen.CodigoOpcion);
@@ -34,7 +34,7 @@ namespace Auditoria.CapaDatos
                 db.ExecuteNonQuery(comand);
 
                 Int64 vpiCodigoProceso;
-                vpiCodigoProceso = Convert.ToInt64(db.GetParameterValue(comand, "@iCodigoProceso"));
+                vpiCodigoProceso = Convert.ToInt64(db.GetParameterValue(comand, "@iCodigoAuditoria"));
 
                 return vpiCodigoProceso;
             }

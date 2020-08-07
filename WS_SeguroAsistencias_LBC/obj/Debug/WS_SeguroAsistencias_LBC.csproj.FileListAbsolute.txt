@@ -147,3 +147,8 @@ D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\obj\Debug\WS_SeguroAsistenc
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\obj\Debug\WS_SeguroAsistencias_LBC.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\obj\Debug\WS_SeguroAsistencias_LBC.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\obj\Debug\WS_SeguroAsistencias_LBC.pdb
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\ProyectoAuditoria.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\ProyectoAuditoria.pdb
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\ProyectoAuditoria.dll.config

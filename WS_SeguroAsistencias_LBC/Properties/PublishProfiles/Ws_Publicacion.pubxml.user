@@ -79,28 +79,28 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>08/05/2020 20:58:40</publishTime>
+      <publishTime>08/07/2020 12:25:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>08/05/2020 20:58:40</publishTime>
+      <publishTime>08/07/2020 12:25:00</publishTime>
     </File>
     <File Include="bin/CapaDatos.dll">
-      <publishTime>08/05/2020 20:58:24</publishTime>
+      <publishTime>08/07/2020 12:24:49</publishTime>
     </File>
     <File Include="bin/CapaDatos.pdb">
-      <publishTime>08/05/2020 20:58:24</publishTime>
+      <publishTime>08/07/2020 12:24:49</publishTime>
     </File>
     <File Include="bin/CapaEntidad.dll">
-      <publishTime>08/05/2020 20:58:23</publishTime>
+      <publishTime>08/07/2020 11:18:24</publishTime>
     </File>
     <File Include="bin/CapaEntidad.pdb">
-      <publishTime>08/05/2020 20:58:23</publishTime>
+      <publishTime>08/07/2020 11:18:24</publishTime>
     </File>
     <File Include="bin/CapaNegocios.dll">
-      <publishTime>08/05/2020 20:58:25</publishTime>
+      <publishTime>08/07/2020 12:24:49</publishTime>
     </File>
     <File Include="bin/CapaNegocios.pdb">
-      <publishTime>08/05/2020 20:58:25</publishTime>
+      <publishTime>08/07/2020 12:24:49</publishTime>
     </File>
     <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
       <publishTime>11/28/2018 13:00:46</publishTime>
@@ -138,11 +138,26 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>07/08/2020 21:52:58</publishTime>
     </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>04/25/2013 10:04:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>04/25/2013 10:04:12</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/ProyectoAuditoria.dll">
+      <publishTime>08/07/2020 12:24:48</publishTime>
+    </File>
+    <File Include="bin/ProyectoAuditoria.dll.config">
+      <publishTime>07/31/2020 19:03:44</publishTime>
+    </File>
+    <File Include="bin/ProyectoAuditoria.pdb">
+      <publishTime>08/07/2020 12:24:48</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/27/2016 14:50:24</publishTime>
@@ -256,10 +271,10 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/23/2014 13:57:34</publishTime>
     </File>
     <File Include="bin/WS_SeguroAsistencias_LBC.dll">
-      <publishTime>08/05/2020 20:58:26</publishTime>
+      <publishTime>08/07/2020 12:24:50</publishTime>
     </File>
     <File Include="bin/WS_SeguroAsistencias_LBC.pdb">
-      <publishTime>08/05/2020 20:58:26</publishTime>
+      <publishTime>08/07/2020 12:24:50</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>07/31/2020 15:14:24</publishTime>
@@ -310,7 +325,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>07/31/2020 15:14:00</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>08/05/2020 20:58:33</publishTime>
+      <publishTime>08/07/2020 12:24:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/31/2020 15:14:24</publishTime>
@@ -355,7 +370,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>07/31/2020 15:14:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/05/2020 20:58:32</publishTime>
+      <publishTime>08/07/2020 12:24:50</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -67,3 +67,4 @@ D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\bin\Microsoft.CodeDom.Providers.Do
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.dll
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
+D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csprojAssemblyReference.cache

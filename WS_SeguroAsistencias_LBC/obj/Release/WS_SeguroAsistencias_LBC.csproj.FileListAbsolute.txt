@@ -33,6 +33,7 @@ D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaNegocios.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.Web.Infrastructure.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Newtonsoft.Json.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\ProyectoAuditoria.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Net.Http.Formatting.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.Helpers.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.Http.dll
@@ -45,9 +46,13 @@ D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.Razor.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\WebGrease.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaDatos.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\IBM.Data.Informix.dll
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaEntidad.pdb
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\CapaNegocios.pdb
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\ProyectoAuditoria.pdb
+D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\ProyectoAuditoria.dll.config
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\Newtonsoft.Json.xml
 D:\WS_SeguroAsistencias_LBC\WS_SeguroAsistencias_LBC\bin\System.Net.Http.Formatting.xml

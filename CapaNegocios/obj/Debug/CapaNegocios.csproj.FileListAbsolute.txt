@@ -9,3 +9,8 @@ D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyRe
 D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Debug\CapaNegocios.dll
 D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Debug\CapaNegocios.pdb
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Debug\ProyectoAuditoria.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Debug\ProyectoAuditoria.pdb
+D:\WS_SeguroAsistencias_LBC\CapaNegocios\bin\Debug\ProyectoAuditoria.dll.config

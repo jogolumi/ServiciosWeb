@@ -2,3 +2,4 @@ D:\WS_SeguroAsistencias_LBC\CapaEntidad\bin\Debug\CapaEntidad.dll
 D:\WS_SeguroAsistencias_LBC\CapaEntidad\bin\Debug\CapaEntidad.pdb
 D:\WS_SeguroAsistencias_LBC\CapaEntidad\obj\Debug\CapaEntidad.dll
 D:\WS_SeguroAsistencias_LBC\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\WS_SeguroAsistencias_LBC\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache

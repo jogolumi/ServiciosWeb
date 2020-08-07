@@ -32,3 +32,4 @@ D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\bin\Microsoft.CodeDom.Providers.Do
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Release\ProyectoAuditoria.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Release\ProyectoAuditoria.dll
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Release\ProyectoAuditoria.pdb
+D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Release\ProyectoAuditoria.csprojAssemblyReference.cache
