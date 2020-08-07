@@ -14,13 +14,17 @@ namespace WS_SeguroAsistencias_LBC.Controllers
         [Route("api/cliente")]
         [HttpPost]
         // POST api/cliente
-        public IHttpActionResult TraerDatosClientes(string tipoDoc, string numeroDoc)
+        public IHttpActionResult TraerDatosClientes(string tipoDoc, string numeroDoc,string codigoUsuario)
         {
             if (tipoDoc == null)
             {
                 return BadRequest();
             }
             else if (numeroDoc == null)
+            {
+                return BadRequest();
+            }
+            else if (codigoUsuario == null)
             {
                 return BadRequest();
             }
@@ -33,7 +37,7 @@ namespace WS_SeguroAsistencias_LBC.Controllers
                 OutputClienteEn oCliente = new OutputClienteEn();
                 ServicioCliente servicioCliente = new ServicioCliente();
 
-                oCliente = servicioCliente.ServicioTraerCliente(tipoDoc, numeroDoc);
+                oCliente = servicioCliente.ServicioTraerCliente(tipoDoc, numeroDoc, codigoUsuario);
 
                 return Ok(oCliente);
             }

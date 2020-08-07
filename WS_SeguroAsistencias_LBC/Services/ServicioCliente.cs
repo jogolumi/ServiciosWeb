@@ -12,7 +12,7 @@ namespace WS_SeguroAsistencias_LBC.Services
     public class ServicioCliente
     {
         
-        public OutputClienteEn ServicioTraerCliente(string tipoDoc, string numeroDoc)
+        public OutputClienteEn ServicioTraerCliente(string tipoDoc, string numeroDoc, string codigoUsuario)
         {
             try
             {
@@ -22,7 +22,7 @@ namespace WS_SeguroAsistencias_LBC.Services
 
                 enCliente.TipoDocumento = tipoDoc;
                 enCliente.Documento = numeroDoc;
-                enCliente.CodigoUsuario = "aticona";
+                enCliente.CodigoUsuario = codigoUsuario;
                 enClienteRetorno = neCliente.DatosCliente(enCliente);
 
                 return enClienteRetorno;
