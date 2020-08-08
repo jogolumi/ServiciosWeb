@@ -88,6 +88,8 @@ namespace CapaNegocios
                 //REGISTRO AUDITORIA
                 using (TransactionScope ts = new TransactionScope())
                 {
+                    //OBTENER FECHA HORA SERVIDOR
+                    PrepararFechaHoraServidor();
                     //AUDITORIA ENTRADA
                     Int64 iCodigoAuditoria = 0;
                     EnAudiResumen = PrepararAuditoriaResumen(entradaEnCliente, "TRAER CLIENTE ENTRADA");
