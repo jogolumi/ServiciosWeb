@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InputClienteEn.cs" />
+    <Compile Include="InputMedioPagoEn.cs" />
+    <Compile Include="MediosPagoEn.cs" />
     <Compile Include="OutputClienteEn.cs" />
+    <Compile Include="OutputMedioPagoEn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

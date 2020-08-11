@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClienteNeg.cs" />
+    <Compile Include="MedioPagoNeg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServidorNeg.cs" />
   </ItemGroup>

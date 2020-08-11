@@ -27,7 +27,7 @@ namespace CapaDatos
         public string error { get; set; }
         public DataTable ObtenerCliente(InputClienteEn oCliente)
         {
-            string consulta = "select c.gbagecage codigo_cliente " +
+            string consultaIfx = "select c.gbagecage codigo_cliente " +
                                 ", c.gbagetper tipo_persona " +
                                 ", c.gbagetdid tipo_documento " +
                                 ", SUBSTRING (c.gbagendid from length (c.gbagendid) - 1 for 2) lugar_expedicion " +
@@ -53,7 +53,7 @@ namespace CapaDatos
             {
                 DataTable Consulta = new DataTable();
                 conn.Open();
-                IfxDataAdapter resp1 = new IfxDataAdapter(consulta, conn);
+                IfxDataAdapter resp1 = new IfxDataAdapter(consultaIfx, conn);
                 resp1.Fill(Consulta);
 
                 return Consulta;
