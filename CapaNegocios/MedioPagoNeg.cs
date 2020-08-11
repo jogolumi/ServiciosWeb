@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
+using log4net;
 
 namespace CapaNegocios
 {
@@ -19,6 +20,7 @@ namespace CapaNegocios
         private DateTime dFechaHoraServidor = DateTime.Now;
         private string[,] aAuditoriaDetalleSalida = new string[3, 3];
         private string[,] aAuditoriaDetalleEntrada = new string[2, 3];
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public OutputMedioPagoEn DatosMedioPago(InputMedioPagoEn entradaEnMedioPago)
         {
             OutputMedioPagoEn enMedioPago = new OutputMedioPagoEn();
@@ -79,7 +81,7 @@ namespace CapaNegocios
                 iCodigoAuditoria = NeAudiResumen.FN_NeRegistrarProcesoResumen(EnAudiResumen);
                 if (iCodigoAuditoria == 0)
                 {
-                    //agregar el .log
+                    Log.Debug("No se registró datos de ingreso, proceso resumen de auditoria");
                     throw new Exception();
                 }
                 aAuditoriaDetalleEntrada = new string[2, 3];
@@ -99,7 +101,7 @@ namespace CapaNegocios
 
                     if (!bRegistroAuditoriaDetalleEntrada)
                     {
-                        //agregar el .log
+                        Log.Debug("No se registró datos proceso detalle ingreso de auditoria");
                         throw new Exception();
                     }
 
@@ -112,7 +114,7 @@ namespace CapaNegocios
                 iCodigoAuditoria = NeAudiResumen.FN_NeRegistrarProcesoResumen(EnAudiResumen);
                 if (iCodigoAuditoria == 0)
                 {
-                    //agregar el .log
+                    Log.Debug("No se registró datos proceso resumen salida de auditoria");
                     throw new Exception();
                 }
                 aAuditoriaDetalleSalida = new string[3, 3];
@@ -133,7 +135,7 @@ namespace CapaNegocios
 
                     if (!bRegistroAuditoriaDetalleSalida)
                     {
-                        //agregar el .log
+                        Log.Debug("No se registró datos proceso detalle salida de auditoria");
                         throw new Exception();
                     }
 
@@ -152,7 +154,7 @@ namespace CapaNegocios
                             bRegistroAuditoriaTablas = NeAudiTablas.FN_NeRegistrarAuditoriaTablas(EnAudiTablas);
                             if (!bRegistroAuditoriaTablas)
                             {
-                                //agregar el .log
+                                Log.Debug("No se registró datos tablas de auditoria");
                                 throw new Exception();
                             }
                             iNumeroCorrelativoTabla = iNumeroCorrelativoTabla + 1;
@@ -232,7 +234,7 @@ namespace CapaNegocios
             }
             catch (Exception ex)
             {
-                //agregar el .log
+                Log.Debug("Error: " + ex);
                 throw new Exception();
             }
         }

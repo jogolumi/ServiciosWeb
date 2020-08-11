@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ServiciosWeb-master\CapaNegocios\bin\Debug\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Transactions" />
@@ -43,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClienteNeg.cs" />
+    <Compile Include="CobroNeg.cs" />
     <Compile Include="MedioPagoNeg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServidorNeg.cs" />

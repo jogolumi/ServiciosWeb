@@ -8,8 +8,8 @@ namespace CapaEntidad
 {
     public class InputClienteEn
     {
-        public string TipoDocumento { get; set; }
-        public string Documento { get; set; }
-        public string CodigoUsuario { get; set; }
+        public int TIPO_DOCUMENTO { get; set; }
+        public string NUMERO_DOCUMENTO { get; set; }
+        public string CODIGO_USUARIO { get; set; }
     }
 }

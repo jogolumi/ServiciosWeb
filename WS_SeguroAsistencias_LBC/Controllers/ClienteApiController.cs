@@ -14,7 +14,7 @@ namespace WS_SeguroAsistencias_LBC.Controllers
         [Route("api/cliente")]
         [HttpPost]
         // POST api/cliente
-        public IHttpActionResult TraerDatosClientes(string tipoDoc, string numeroDoc,string codigoUsuario)
+        public IHttpActionResult TraerDatosClientes(int tipoDoc, string numeroDoc,string codigoUsuario)
         {
             if (tipoDoc == null)
             {

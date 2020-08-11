@@ -47,7 +47,7 @@ namespace CapaDatos
                                 "inner join gbdac da on da.gbdaccage = c.gbagecage " +
                                 "left outer join gbdir dir on c.gbagecage = dir.gbdircage and dir.gbdirtdir = 1 " +
                                 "left outer join gbcon con on c.gbagenaci = con.gbcondesc " +
-                                "where trim(c.gbagendid) = '" + oCliente.Documento + "' and c.gbagetdid = '" + oCliente.TipoDocumento + "'";
+                                "where trim(c.gbagendid) = '" + oCliente.NUMERO_DOCUMENTO + "' and c.gbagetdid = '" + oCliente.TIPO_DOCUMENTO + "'";
             IfxConnection conn = new IfxConnection(ConexionInformix());
             try
             {

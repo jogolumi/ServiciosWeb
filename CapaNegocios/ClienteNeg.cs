@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
+using log4net;
 
 namespace CapaNegocios
 {
@@ -20,6 +21,7 @@ namespace CapaNegocios
         private DateTime dFechaHoraServidor = DateTime.Now;
         private string[,] aAuditoriaDetalleSalida = new string[32, 3];
         private string[,] aAuditoriaDetalleEntrada = new string[3, 3];
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public OutputClienteEn DatosCliente(InputClienteEn entradaEnCliente)
         {
             OutputClienteEn enCliente = new OutputClienteEn();
@@ -42,38 +44,38 @@ namespace CapaNegocios
                     {
                         enCliente = new OutputClienteEn
                         {
-                            CodigoCliente = item["codigo_cliente"].ToString().Trim(),
-                            TipoPersona = item["tipo_persona"].ToString().Trim(),
-                            TipoDocumento = item["tipo_documento"].ToString().Trim(),
-                            LugarExpedicion = item["lugar_expedicion"].ToString().Trim(),
-                            NumeroDocumentoIdentificacion = item["numero_documento_identificacion"].ToString().Trim(),
-                            Complemento = item["complemento"].ToString().Trim(),
-                            PrimerNombreCliente = item["primer_nombre_cliente"].ToString().Trim(),
-                            SegundoNombreCliente = item["segundo_nombre_cliente"].ToString().Trim(),
-                            ApellidoPaternoCliente = item["apellido_paterno_cliente"].ToString().Trim(),
-                            ApellidoMaternoCliente = item["apellido_materno_cliente"].ToString().Trim(),
-                            FechaNacimiento = item["fecha_nacimiento"].ToString().Trim(),
-                            Genero = item["genero"].ToString().Trim(),
-                            Nacionalidad = item["nacionalidad"].ToString().Trim(),
-                            EstadoCivil = item["estado_civil"].ToString().Trim(),
-                            NombreConyugue = item["nombre_conyugue"].ToString().Trim(),
-                            ApellidoConyugue = item["apellido_conyugue"].ToString().Trim(),
-                            CorreoElectronico = item["correo_electronico"].ToString().Trim(),
-                            Telefono = item["telefono"].ToString().Trim(),
-                            Celular = item["celular"].ToString().Trim(),
-                            PaisDomicilio = item["pais_domicilio"].ToString().Trim(),
-                            DepartamentoDomicilio = item["departamento_domicilio"].ToString().Trim(),
-                            ProvinciaDomicilio = item["provincia_domicilio"].ToString().Trim(),
-                            ZonaDomicilio = item["zona_domicilio"].ToString().Trim(),
-                            CiudadDomicilio = item["ciudad_domicilio"].ToString().Trim(),
-                            DireccionDomicilio = item["direccion_domicilio"].ToString().Trim(),
-                            RazonSocialDenominacion = item["razon_social_denominacion"].ToString().Trim(),
-                            NroMatriculaRegistroComercio = item["nro_matricula_registro_comercio"].ToString().Trim(),
-                            LugarPaisConstitucion = item["lugar_pais_constitucion"].ToString().Trim(),
-                            NombreRepresentanteLegal = item["nombre_representante_legal"].ToString().Trim(),
-                            NombreResponsableSeguros = item["nombre_responsable_seguros"].ToString().Trim(),
-                            CodigoRetorno = _CodigoRetorno,
-                            DescripcionRetorno = _DescripcionRetorno
+                            CODIGO_CLIENTE = item["codigo_cliente"].ToString().Trim(),
+                            TIPO_PERSONA = item["tipo_persona"].ToString().Trim(),
+                            TIPO_DOCUMENTO = Convert.ToInt32(item["tipo_documento"].ToString().Trim()),
+                            LUGAR_EXPEDICION = item["lugar_expedicion"].ToString().Trim(),
+                            NUMERO_DOCUMENTO_IDENTIFICACION = item["numero_documento_identificacion"].ToString().Trim(),
+                            COMPLEMENTO = item["complemento"].ToString().Trim(),
+                            PRIMER_NOMBRE_CLIENTE = item["primer_nombre_cliente"].ToString().Trim(),
+                            SEGUNDO_NOMBRE_CLIENTE = item["segundo_nombre_cliente"].ToString().Trim(),
+                            APELLIDO_PATERNO_CLIENTE = item["apellido_paterno_cliente"].ToString().Trim(),
+                            APELLIDO_MATERNO_CLIENTE = item["apellido_materno_cliente"].ToString().Trim(),
+                            FECHA_NACIMIENTO = Convert.ToInt32(item["fecha_nacimiento"].ToString().Trim()),
+                            GENERO = item["genero"].ToString().Trim(),
+                            NACIONALIDAD = Convert.ToInt32(item["nacionalidad"].ToString().Trim()),
+                            ESTADO_CIVIL = Convert.ToInt32(item["estado_civil"].ToString().Trim()),
+                            NOMBRE_CONYUGUE = item["nombre_conyugue"].ToString().Trim(),
+                            APELLIDO_CONYUGUE = item["apellido_conyugue"].ToString().Trim(),
+                            CORREO_ELECTRONICO = item["correo_electronico"].ToString().Trim(),
+                            TELEFONO = item["telefono"].ToString().Trim(),
+                            CELULAR = item["celular"].ToString().Trim(),
+                            PAIS_DOMICILIO = Convert.ToInt32(item["pais_domicilio"].ToString().Trim()),
+                            DEPARTAMENTO_DOMICILIO = item["departamento_domicilio"].ToString().Trim(),
+                            PROVINCIA_DOMICILIO = item["provincia_domicilio"].ToString().Trim(),
+                            ZONA_DOMICILIO = item["zona_domicilio"].ToString().Trim(),
+                            CIUDAD_DOMICILIO = item["ciudad_domicilio"].ToString().Trim(),
+                            DIRECCION_DOMICILIO = item["direccion_domicilio"].ToString().Trim(),
+                            RAZON_SOCIAL_DOMICILIO = item["razon_social_denominacion"].ToString().Trim(),
+                            NRO_MATRICULA_REGISTRO_COMERCIO = item["nro_matricula_registro_comercio"].ToString().Trim(),
+                            LUGAR_PAIS_CONSTITUCION = Convert.ToInt32(item["lugar_pais_constitucion"].ToString().Trim()),
+                            NOMBRE_REPRESENTANTE_LEGAL = item["nombre_representante_legal"].ToString().Trim(),
+                            NOMBRE_RESPONSABLE_SEGUROS = item["nombre_responsable_seguros"].ToString().Trim(),
+                            CODIGO_RETORNO = _CodigoRetorno,
+                            DESCRIPCION_RETORNO = _DescripcionRetorno
                         };
                     }
                 }
@@ -81,8 +83,8 @@ namespace CapaNegocios
                 {
                     enCliente = new OutputClienteEn
                     {
-                        CodigoRetorno = _CodigoRetorno,
-                        DescripcionRetorno = _DescripcionRetorno
+                        CODIGO_RETORNO = _CodigoRetorno,
+                        DESCRIPCION_RETORNO = _DescripcionRetorno
                     };
                 }
                 //REGISTRO AUDITORIA
@@ -96,7 +98,7 @@ namespace CapaNegocios
                     iCodigoAuditoria = NeAudiResumen.FN_NeRegistrarProcesoResumen(EnAudiResumen);
                     if (iCodigoAuditoria == 0)
                     {
-                        //agregar el .log
+                        Log.Debug("No se registró datos de ingreso, proceso resumen de auditoria");
                         throw new Exception();
                     }
                     aAuditoriaDetalleEntrada = new string[3, 3];
@@ -116,7 +118,7 @@ namespace CapaNegocios
 
                         if (!bRegistroAuditoriaDetalleEntrada)
                         {
-                            //agregar el .log
+                            Log.Debug("No se registró datos proceso detalle ingreso de auditoria");
                             throw new Exception();
                         }
 
@@ -129,7 +131,7 @@ namespace CapaNegocios
                     iCodigoAuditoria = NeAudiResumen.FN_NeRegistrarProcesoResumen(EnAudiResumen);
                     if (iCodigoAuditoria == 0)
                     {
-                        //agregar el .log
+                        Log.Debug("No se registró datos proceso resumen salida de auditoria");
                         throw new Exception();
                     }
                     aAuditoriaDetalleSalida = new string[32, 3];
@@ -149,7 +151,7 @@ namespace CapaNegocios
 
                         if (!bRegistroAuditoriaDetalleSalida)
                         {
-                            //agregar el .log
+                            Log.Debug("No se registró datos proceso detalle salida de auditoria");
                             throw new Exception();
                         }
 
@@ -168,9 +170,10 @@ namespace CapaNegocios
             {
                 enCliente = new OutputClienteEn
                 {
-                    CodigoRetorno = "102",
-                    DescripcionRetorno = "Error en retorno excepcion "
+                    CODIGO_RETORNO = "102",
+                    DESCRIPCION_RETORNO = "Error en retorno excepcion "
                 };
+                Log.Debug("Error: " + ex);
                 return enCliente;
             }
         }
@@ -232,7 +235,7 @@ namespace CapaNegocios
             }
             catch (Exception ex)
             {
-                //agregar el .log
+                Log.Debug("Error: " + ex);
                 throw new Exception();
             }
         }
@@ -243,7 +246,7 @@ namespace CapaNegocios
             {
                 enAuditoriaResumen enAudiResumen = new enAuditoriaResumen();
                 //REGISTRO PISTAS AUDITORIA
-                enAudiResumen.CodigoUsuario = enClienteEntrada.CodigoUsuario;
+                enAudiResumen.CodigoUsuario = enClienteEntrada.CODIGO_USUARIO;
                 enAudiResumen.CodigoOpcion = CodigoOpcion;
                 enAudiResumen.FechaProceso = Convert.ToDateTime(dFechaHoraServidor.ToShortDateString());
                 enAudiResumen.HoraProceso = dFechaHoraServidor;
@@ -253,7 +256,7 @@ namespace CapaNegocios
             }
             catch (Exception ex)
             {
-                //agregar el .log
+                Log.Debug("Error: " + ex);
                 throw new Exception();
             }
         }
@@ -264,26 +267,26 @@ namespace CapaNegocios
             if (iColumna == 1)
             {
                 aAuditoriaDetalleEntrada[iFila, iColumna - 1] = "TIPO DOCUMENTO";
-                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.TipoDocumento;
+                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.TIPO_DOCUMENTO.ToString();
                 iFila = iFila + 1;
 
 
                 aAuditoriaDetalleEntrada[iFila, iColumna - 1] = "DOCUMENTO";
-                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.Documento;
+                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.NUMERO_DOCUMENTO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleEntrada[iFila, iColumna - 1] = "CODIGO USUARIO";
-                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.CodigoUsuario;
+                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.CODIGO_USUARIO;
             }
             else
             {
-                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.TipoDocumento;
+                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.TIPO_DOCUMENTO.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.Documento;
+                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.NUMERO_DOCUMENTO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.CodigoUsuario;
+                aAuditoriaDetalleEntrada[iFila, iColumna] = enClienteEntrada.CODIGO_USUARIO;
             }
         }
         //PREPARAR AUDITORIA DETALLE SALIDA
@@ -293,229 +296,229 @@ namespace CapaNegocios
             if (iColumna == 1)
             {
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "CODIGO CLIENTE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CodigoCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CODIGO_CLIENTE;
                 iFila = iFila + 1;
 
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "TIPO PERSONA";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TipoPersona;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TIPO_PERSONA;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "TIPO DOCUMENTO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TipoDocumento;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TIPO_DOCUMENTO.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "LUGAR EXPEDICION";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LugarExpedicion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LUGAR_EXPEDICION;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "NUMERO DOCUMENTO IDENTIFICACION";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NumeroDocumentoIdentificacion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NUMERO_DOCUMENTO_IDENTIFICACION;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "COMPLEMENTO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Complemento;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.COMPLEMENTO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "PRIMER NOMBRE CLIENTE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PrimerNombreCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PRIMER_NOMBRE_CLIENTE;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "SEGUNDO NOMBRE CLIENTE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.SegundoNombreCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.SEGUNDO_NOMBRE_CLIENTE;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "APELLIDO PATERNO CLIENTE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ApellidoPaternoCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.APELLIDO_PATERNO_CLIENTE;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "APELLIDO MATERNO CLIENTE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ApellidoMaternoCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.APELLIDO_MATERNO_CLIENTE;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "FECHA NACIMIENTO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.FechaNacimiento;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.FECHA_NACIMIENTO.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "GENERO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Genero;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.GENERO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "NACIONALIDAD";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Nacionalidad;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NACIONALIDAD.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "ESTADO CIVIL";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.EstadoCivil;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ESTADO_CIVIL.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "NOMBRE CONYUGUE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NombreConyugue;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NOMBRE_CONYUGUE;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "APELLIDO CONYUGUE";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ApellidoConyugue;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.APELLIDO_CONYUGUE;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "CORREO ELECTRONICO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CorreoElectronico;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CORREO_ELECTRONICO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "TELEFONO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Telefono;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TELEFONO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "CELULAR";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Celular;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CELULAR;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "PAIS DOMICILIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PaisDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PAIS_DOMICILIO.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "DEPARTAMENTO DOMICILIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DepartamentoDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DEPARTAMENTO_DOMICILIO.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "PROVINCIA DOMICILIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ProvinciaDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PROVINCIA_DOMICILIO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "ZONA DOMICILIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ZonaDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ZONA_DOMICILIO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "CIUDAD DOMICILIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CiudadDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CIUDAD_DOMICILIO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "DIRECCION DOMICILIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DireccionDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DIRECCION_DOMICILIO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "RAZON SOCIAL DENOMINACION";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.RazonSocialDenominacion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.RAZON_SOCIAL_DOMICILIO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "NRO MATRICULA REGISTRO COMERCIO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NroMatriculaRegistroComercio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NRO_MATRICULA_REGISTRO_COMERCIO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "LUGAR PAIS CONSTITUCION";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LugarPaisConstitucion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LUGAR_PAIS_CONSTITUCION.ToString();
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "NOMBRE REPRESENTANTE LEGAL";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NombreRepresentanteLegal;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NOMBRE_REPRESENTANTE_LEGAL;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "NOMBRE RESPONSABLE SEGUROS";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NombreResponsableSeguros;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NOMBRE_RESPONSABLE_SEGUROS;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "CODIGO RETORNO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CodigoRetorno;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CODIGO_RETORNO;
                 iFila = iFila + 1;
 
                 aAuditoriaDetalleSalida[iFila, iColumna - 1] = "DESCRIPCION RETORNO";
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DescripcionRetorno;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DESCRIPCION_RETORNO;
             }
             else
             {
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CodigoCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CODIGO_CLIENTE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TipoPersona;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TIPO_PERSONA;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TipoDocumento;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TIPO_DOCUMENTO.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LugarExpedicion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LUGAR_EXPEDICION;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NumeroDocumentoIdentificacion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NUMERO_DOCUMENTO_IDENTIFICACION;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Complemento;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.COMPLEMENTO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PrimerNombreCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PRIMER_NOMBRE_CLIENTE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.SegundoNombreCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.SEGUNDO_NOMBRE_CLIENTE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ApellidoPaternoCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.APELLIDO_PATERNO_CLIENTE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ApellidoMaternoCliente;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.APELLIDO_MATERNO_CLIENTE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.FechaNacimiento;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.FECHA_NACIMIENTO.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Genero;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.GENERO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Nacionalidad;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NACIONALIDAD.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.EstadoCivil;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ESTADO_CIVIL.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NombreConyugue;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NOMBRE_CONYUGUE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ApellidoConyugue;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.APELLIDO_CONYUGUE;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CorreoElectronico;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CORREO_ELECTRONICO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Telefono;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.TELEFONO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.Celular;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CELULAR;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PaisDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PAIS_DOMICILIO.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DepartamentoDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DEPARTAMENTO_DOMICILIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ProvinciaDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.PROVINCIA_DOMICILIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ZonaDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.ZONA_DOMICILIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CiudadDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CIUDAD_DOMICILIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DireccionDomicilio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DIRECCION_DOMICILIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.RazonSocialDenominacion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.RAZON_SOCIAL_DOMICILIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NroMatriculaRegistroComercio;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NRO_MATRICULA_REGISTRO_COMERCIO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LugarPaisConstitucion;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.LUGAR_PAIS_CONSTITUCION.ToString();
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NombreRepresentanteLegal;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NOMBRE_REPRESENTANTE_LEGAL;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NombreResponsableSeguros;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.NOMBRE_RESPONSABLE_SEGUROS;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CodigoRetorno;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.CODIGO_RETORNO;
                 iFila = iFila + 1;
 
-                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DescripcionRetorno;
+                aAuditoriaDetalleSalida[iFila, iColumna] = enClienteSalida.DESCRIPCION_RETORNO;
             }
         }
     }

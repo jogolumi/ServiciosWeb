@@ -42,9 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InputClienteEn.cs" />
+    <Compile Include="InputCobroEn.cs" />
     <Compile Include="InputMedioPagoEn.cs" />
     <Compile Include="MediosPagoEn.cs" />
     <Compile Include="OutputClienteEn.cs" />
+    <Compile Include="OutputCobroEn.cs" />
     <Compile Include="OutputMedioPagoEn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

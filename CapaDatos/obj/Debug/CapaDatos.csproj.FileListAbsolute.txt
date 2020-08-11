@@ -9,3 +9,12 @@ D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Debug\CapaDatos.pdb
 D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Debug\CapaEntidad.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Debug\IBM.Data.Informix.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Debug\CapaEntidad.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Debug\CapaDatos.pdb

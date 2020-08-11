@@ -68,3 +68,37 @@ D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.dll
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
 D:\WS_SeguroAsistencias_LBC\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csprojAssemblyReference.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\ProyectoAuditoria.dll.config
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\ProyectoAuditoria.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\ProyectoAuditoria.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\csc.exe
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\csc.exe.config
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\csc.rsp
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\csi.exe
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\csi.rsp
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\System.AppContext.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\System.Collections.Immutable.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\System.IO.FileSystem.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\System.Reflection.Metadata.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\vbc.exe
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\vbc.exe.config
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\vbc.rsp
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\VBCSCompiler.exe
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\roslyn\VBCSCompiler.exe.config
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CopyComplete
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
