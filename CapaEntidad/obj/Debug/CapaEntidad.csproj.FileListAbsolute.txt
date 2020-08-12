@@ -7,3 +7,4 @@ D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\bin
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\bin\Debug\CapaEntidad.pdb
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\obj\Debug\CapaEntidad.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache

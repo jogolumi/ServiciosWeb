@@ -102,3 +102,4 @@ D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditor
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CopyComplete
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csprojAssemblyReference.cache

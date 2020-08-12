@@ -184,6 +184,7 @@ D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsiste
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\Antlr3.Runtime.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\CapaEntidad.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\CapaNegocios.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\log4net.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\Microsoft.Web.Infrastructure.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\Newtonsoft.Json.dll
@@ -199,7 +200,6 @@ D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsiste
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\System.Web.WebPages.Razor.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\WebGrease.dll
-D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\log4net.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\CapaDatos.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\WS_SeguroAsistencias_LBC\bin\IBM.Data.Informix.dll

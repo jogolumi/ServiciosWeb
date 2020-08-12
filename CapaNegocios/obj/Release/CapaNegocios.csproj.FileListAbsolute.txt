@@ -14,3 +14,20 @@ D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.csprojAssembly
 D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.dll
 D:\WS_SeguroAsistencias_LBC\CapaNegocios\obj\Release\CapaNegocios.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\CapaNegocios.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\CapaNegocios.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\CapaDatos.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\CapaEntidad.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\log4net.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\ProyectoAuditoria.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\IBM.Data.Informix.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\CapaDatos.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\CapaEntidad.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\ProyectoAuditoria.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\bin\Release\ProyectoAuditoria.dll.config
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\obj\Release\CapaNegocios.csprojAssemblyReference.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\obj\Release\CapaNegocios.csproj.CopyComplete
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\obj\Release\CapaNegocios.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaNegocios\obj\Release\CapaNegocios.pdb

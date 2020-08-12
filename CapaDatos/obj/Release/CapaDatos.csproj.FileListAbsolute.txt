@@ -9,3 +9,12 @@ D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Release\CapaDatos.csprojAssemblyRefere
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Release\CapaDatos.dll
 D:\WS_SeguroAsistencias_LBC\CapaDatos\obj\Release\CapaDatos.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Release\CapaDatos.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Release\CapaDatos.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Release\CapaEntidad.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Release\IBM.Data.Informix.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\bin\Release\CapaEntidad.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Release\CapaDatos.csprojAssemblyReference.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Release\CapaDatos.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaDatos\obj\Release\CapaDatos.pdb

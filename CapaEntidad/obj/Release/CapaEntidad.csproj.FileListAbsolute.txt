@@ -2,3 +2,8 @@ D:\WS_SeguroAsistencias_LBC\CapaEntidad\bin\Release\CapaEntidad.dll
 D:\WS_SeguroAsistencias_LBC\CapaEntidad\bin\Release\CapaEntidad.pdb
 D:\WS_SeguroAsistencias_LBC\CapaEntidad\obj\Release\CapaEntidad.dll
 D:\WS_SeguroAsistencias_LBC\CapaEntidad\obj\Release\CapaEntidad.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\bin\Release\CapaEntidad.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\bin\Release\CapaEntidad.pdb
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\obj\Release\CapaEntidad.csprojAssemblyReference.cache
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\obj\Release\CapaEntidad.dll
+D:\Janeth Mendoza\Historias\23933-Corredora Ciacruz\ServiciosWeb\CapaEntidad\obj\Release\CapaEntidad.pdb

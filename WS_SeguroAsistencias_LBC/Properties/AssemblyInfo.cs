@@ -17,7 +17,9 @@ using System.Runtime.InteropServices;
 // Si configura ComVisible como falso, los tipos de este ensamblado no se hacen visibles
 // para componentes COM.  Si necesita acceder a un tipo de este ensamblado desde
 // COM, establezca el atributo ComVisible en True en este tipo.
+
 [assembly: ComVisible(false)]
+[assembly: log4net.Config.XmlConfigurator(Watch = false)]
 
 // El siguiente GUID sirve como ID de typelib si este proyecto se expone a COM
 [assembly: Guid("8f6e1f3c-e4a9-4fc9-ba78-cc395233dbec")]
